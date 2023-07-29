@@ -5,7 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-.name-highlight{
+p{
+    color: dimgray;
+}
+.orange-highlight{
     color: orange;
 
 }
@@ -25,6 +28,59 @@ h1{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
+.mid{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
 section{
     height: 500px;
+    padding-bottom: 200px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.mid img{
+    width: 85%;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#loop{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
+#mid-banner{
+    text-align: center;
 }
